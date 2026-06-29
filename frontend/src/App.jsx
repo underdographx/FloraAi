@@ -736,7 +736,7 @@ export default function App() {
   const predictFlower = async () => {
     try {
       setError(null);
-      const response = await fetch("https://floraai-rhx5.onrender.com/predict", {
+      const response = await fetch("https://floraai-1-stqb.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
